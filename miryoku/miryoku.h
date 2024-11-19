@@ -42,3 +42,6 @@
 #else
   #include "miryoku_behaviors.h"
 #endif
+
+#define U_MEH &kp LS(LC(LG))
+#define U_HYP &kp LS(LC(LG(LA)
