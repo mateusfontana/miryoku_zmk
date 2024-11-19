@@ -8,10 +8,17 @@ on:
       board:
         description: 'board'
         required: true
+        default: 'seeeduino_xiao_ble'
+        type: choice
+        options:
+        - "nice_nano"
+        - "nice_nano_v2"
+        - "seeeduino_xiao"
+        - "seeeduino_xiao_ble"
       shield:
         description: 'shield'
         required: false
-        default: 'default'
+        default: 'totem_left, totem_right'
       alphas:
         description: 'alphas'
         required: false
